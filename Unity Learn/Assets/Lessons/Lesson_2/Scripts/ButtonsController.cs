@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonsController : MonoBehaviour
+public partial class ButtonsController : MonoBehaviour
 {
     [SerializeField] private GameObject[] _objects;
     [SerializeField] private TextMeshProUGUI _textMesh;
